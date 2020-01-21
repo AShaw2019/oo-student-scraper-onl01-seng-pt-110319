@@ -1,7 +1,9 @@
-#!/usr/bin/env ruby
-
-require_relative "../lib/command_line_interface.rb"
 require 'nokogiri'
-require 'colorize'
+require 'colorize'	require 'colorize'
 
-CommandLineInterface.new.run
+
+class CommandLineInteface	class CommandLineInterface
+  BASE_PATH = "./fixtures/student-site/"	  BASE_PATH = "./fixtures/student-site/"
+
+
+  def run	  
